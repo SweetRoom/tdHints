@@ -997,7 +997,9 @@
       <Overload retVal="" descr="touchDesigner numSamples" />
     </KeyWord>
     <KeyWord name="op" func="yes">
-      <Overload retVal="" descr="touchDesigner op" />
+      <Overload retVal="" descr="touchDesigner op">
+		<Param name="string path"/>
+	  </Overload>
     </KeyWord>
     <KeyWord name="outputConnectors" func="no">
       <Overload retVal="" descr="touchDesigner outputConnectors" />
@@ -4496,6 +4498,12 @@
     </KeyWord>
     <KeyWord name="root" func="no">
       <Overload retVal="" descr="touchDesigner root" />
+    </KeyWord>
+	<KeyWord name="shortcut" func="no">
+      <Overload retVal="" descr="touchDesigner shortcut" />
+    </KeyWord>
+	<KeyWord name="Videoplayer" func="no">
+      <Overload retVal="" descr="touchDesigner Videoplayer" />
     </KeyWord>
   </AutoComplete>
 </NotepadPlus>
